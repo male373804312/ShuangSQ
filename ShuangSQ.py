@@ -79,4 +79,4 @@ def email():
     except smtplib.SMTPException:
         print u"Error: 无法发送邮件"
 
-# email()
+ email()
